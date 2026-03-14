@@ -1,59 +1,123 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+### Elecro-Shop
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project converts the **Electro** electronics HTML template into a dynamic Laravel application with an Admin Panel built on AdminLTE.
 
-## About Laravel
+## Project Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The goal is to turn the static theme into a full Laravel + MySQL web app with:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1. Dynamic frontend pages
+2. Admin panel for content management
+3. Cart and order system
+4. SEO-friendly product URLs
+5. Clean database design with proper normalization
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Frontend Theme
 
-## Learning Laravel
+Electro Template  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Admin Panel Theme
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+AdminLTE  
+https://adminlte.io/
 
-## Laravel Sponsors
+## Tech Stack
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+1. Laravel
+2. MySQL
+3. Blade Templates
+4. Bootstrap
+5. AdminLTE
 
-### Premium Partners
+## Features Implemented
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Module 1 — Homepage Slider
+1. Admin can add, edit, delete sliders
+2. Upload slider images
+3. Add title, subtitle, and button link
+4. Enable or disable sliders
+5. Frontend displays sliders dynamically
 
-## Contributing
+### Module 2 — Category Management
+1. Add category
+2. Edit category
+3. Delete category
+4. Upload category image
+5. Display categories on frontend
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Module 3 — Subcategory Management
+1. Add subcategory
+2. Assign category
+3. Edit subcategory
+4. Delete subcategory
+5. Filter products by category
 
-## Code of Conduct
+### Module 4 — Product Management
+1. Add product
+2. Assign category and subcategory
+3. Upload product image
+4. Product name, description, price
+6. Product detail page
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Module 5 — Cart System (No Login)
+1. Add to cart
+3. Remove items
+4. View cart total
+5. Session-based cart
 
-## Security Vulnerabilities
+### Module 6 — Order Placement
+1. Checkout form collects name, phone, email, address
+2. Order stored in database with items
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Module 7 — Order Management (Admin)
+1. View all orders
+2. View order details
+3. See ordered products
+4. Update status: Pending, Processing, Completed, Cancelled
 
-## License
+### Module 8 — Invoice System 
+1. Order invoice page
+2. Print invoice
+3. PDF invoice generation
+4. Invoice includes order ID, customer info, items, total
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Module 9 — Contact Page Management
+1. Admin can manage address, phone, email, Google Map embed
+2. Contact page is dynamic
+
+### Module 10 — Admin Panel
+1. Dashboard
+2. Sliders
+3. Categories
+4. Subcategories
+5. Products
+6. Orders
+7. Settings
+
+### Module 11 — Admin Authentication
+1. Admin login and logout
+
+### Module 12 — Role Management
+1. Roles: Admin, Manager, Editor
+2. Permissions enforced
+
+
+## Setup Instructions
+
+1. Clone the repo
+3. Update database credentials
+4. Run migrations and seeders
+5. Start the Laravel server
+
+## Login Credentials
+1.Admin 
+  Email-admin@example.com
+  Password-password123
+  
+2.Manager
+  Email-manager@example.com
+  Password-manager123
+
+3.Editor
+  Email-editor@example.com
+  Password-editor123
